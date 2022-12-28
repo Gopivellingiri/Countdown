@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#0A2647;
+    font-size: 130px;
+    font-weight: 700;
+}
+
+.container .countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
+.container .countdown ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 50% auto;
+}
+
+.container .countdown ul li {
+    text-align: center;
+    height: 230px;
+    width: 230px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #FED049;
+    margin: 20px;
+    color: #fff;
+    box-shadow: 2px 2px 8px #02081f9f;
+}
+
+
+
+
+
+
